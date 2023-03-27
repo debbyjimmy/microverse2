@@ -1,1 +1,24 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10;
+  width: 200px;
+  height: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
 
+.card-content {
+  padding: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
